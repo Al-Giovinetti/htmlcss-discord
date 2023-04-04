@@ -22,14 +22,6 @@
     margin: 0 auto;
 }
 
-.dashed-border{
-    border: 2px dashed black;
-}
-
-.dashed-border-white{
-    border: 2px dashed white;
-}
-
 .background-blue{
     background-color:#3161E0;
 }
@@ -170,7 +162,7 @@ nav a{
 }
 
 .arrow:before{
-    content: " \1F817  ";
+    content: "\1F87B";
 }
 
 .text-main{
@@ -208,4 +200,15 @@ footer a{
 
 footer ul{
     list-style-type: none;
+}
+
+.lenguages{
+    font-size: 14px;
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    fill: grey;
 }
