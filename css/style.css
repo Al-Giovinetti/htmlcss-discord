@@ -42,16 +42,15 @@
     background-color:#8EA1E1;
 }
 
-.background-pastel-pink{
-    background-color: #feb5c0;
-}
-
 .background-black{
     background-color: black;
 }
 
 .color_white{
-    color: white;
+    color: white;}
+
+.color_blue{
+    color: #3161E0;
 }
 
 body{
@@ -123,12 +122,7 @@ footer{
     padding-top: 1rem;
 }
 
-footer section.footer-top{
-    height: 700px;
-}
-
 footer div.main-column{
-    background-color: #ef7f7f;
     width: 30%;
 }
 
@@ -137,12 +131,10 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
     width: calc(100% / 4);
 }
 
 footer section.footer-bottom{
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
@@ -206,4 +198,14 @@ h2{
     background-image: url(../img/stars.svg);
     background-size:cover;
     height:30px;
+}
+
+footer a{
+    color: white;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style-type: none;
 }
