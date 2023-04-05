@@ -188,14 +188,15 @@ h2{
 
 #stars{
     background-image: url(../img/stars.svg);
-    background-size:cover;
-    height:30px;
+    background-size: contain;
+    padding-top: 20px;
+    background-repeat: no-repeat;
 }
 
 footer a{
     color: white;
-    margin-bottom: 5px;
     text-decoration: none;
+    line-height: 10px;
 }
 
 footer ul{
@@ -210,5 +211,9 @@ footer ul{
     height: 100px;
     width: 100%;
     background-color: white;
-    fill: grey;
+    filter:opacity(0.18);
+    background-image: url(../img/wave.svg);
 }
+
+
+
